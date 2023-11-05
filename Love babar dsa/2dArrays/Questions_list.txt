@@ -1,0 +1,40 @@
+2D Arrays :
+
+1. Wave Print :
+if(even){
+    for(row=0;row<nRow;row++){        // nRow matlab no. of Rows
+
+    }
+}
+if(odd){
+    for(row=nRows-1;row>=0;row--){
+
+    }
+}
+
+
+2.Spiral Print
+// Suppose give matrix= Arr[n][m];
+count=0
+total =n*m;
+// initialise Starting row,Ending  Col,Ending Row , Starting Col
+while(count<total){
+   Print Starting Row. 
+   Count++;
+   Starting Row++;   // Ye abhi hi kardo ,So it wil handle Duplicate ,while printing Ending Col.
+
+   Print Ending Col .  // Har Print ke For loop mein count<total ki condition bhi dalna mat bhulna .
+   Count++;
+   Ending Col--;
+
+    Print Ending Row.
+   Count++;
+   Ending Row--;
+
+   Print Starting Col.
+   Count++;
+   Starting Col++;
+
+}
+
+3.Rotate matrix by 90 degree.
